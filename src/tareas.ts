@@ -10,6 +10,10 @@ export async function agregarTarea(): Promise<void> {
   console.clear();
   console.log("=== Estás creando una tarea nueva ===\n");
 
+
+
+
+
   let titulo: string;
   while (true) {
     console.log(`1- Ingresa el título (máx ${MAX_TITULO} caracteres):`);
